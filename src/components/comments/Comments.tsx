@@ -41,16 +41,16 @@ export default function Comments({ post }: CommentsProps) {
           disabled={isFetching}
           onClick={() => fetchNextPage()}
         >
-          Load previous comments
+          Load previous Feedbacks
         </Button>
       )}
       {status === "pending" && <Loader2 className="mx-auto animate-spin" />}
       {status === "success" && !comments.length && (
-        <p className="text-center text-muted-foreground">No comments yet.</p>
+        <p className="text-center text-muted-foreground">No feedbacks yet.</p>
       )}
       {status === "error" && (
         <p className="text-center text-destructive">
-          An error occurred while loading comments.
+          An error occurred while loading feedbacks.
         </p>
       )}
       <div className="divide-y">

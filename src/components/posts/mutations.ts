@@ -51,7 +51,7 @@ export function useDeletePostMutation() {
       console.error(error);
       toast({
         variant: "destructive",
-        description: "Failed to delete post. Please try again.",
+        description: "Failed to delete service. Please try again.",
       });
     },
   });

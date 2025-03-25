@@ -34,9 +34,9 @@ export default function DeleteCommentDialog({
     <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Delete comment?</DialogTitle>
+          <DialogTitle>Delete Feedback?</DialogTitle>
           <DialogDescription>
-            Are you sure you want to delete this comment? This action cannot be
+            Are you sure you want to delete this feedback? This action cannot be
             undone.
           </DialogDescription>
         </DialogHeader>
